@@ -1,0 +1,118 @@
+/*
+author:tonglijian;
+update:2015-10-16;
+*/
+body,html{overflow:hidden;}
+.footer{ position:fixed; bottom:0;}
+.slider_bg {background-color: #ffffff;background-position: center top;background-repeat: no-repeat;background-size: cover;height: 100%;left: 0;position: fixed;top: 0;width: 100%;z-index: -1;}
+.slider_bg{background:url(../images/qt06.jpg) no-repeat;background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%; -webkit-background-size: 100% 100%; }
+.main-channel{ margin:0 0 10px; clear:both;}
+.main-channel .headline{background: url(../images/headline_bg.png) repeat;border-bottom: 1px solid #f4f6f8;height: 70px;border-radius: 5px 5px 0 0; /* 所有角都使用半径为5px的圆角，此属性为CSS3标准属性 */ 
+-moz-border-radius: 5px 5px 0 0; /* Mozilla浏览器的私有属性 */ 
+-webkit-border-radius: 5px 5px 0 0; /* Webkit浏览器的私有属性 */ }
+.main-channel .headline .title{color: #999;float: left;font-size: 30px;padding-left: 30px;padding-top: 18px;}
+.main-channel .headline .place{ float:right;padding-right: 30px;padding-top: 28px; font-size:14px;color: #666;}
+.main-channel .headline .place a{color: #666;margin: 0 6px;}
+.main-channel .headline .place a:hover{color: #888;}
+.main-channel .main{ clear:both; background:#fff;padding: 14px 20px 40px 30px; }
+.main-channel .main .sub-nav li{float: left;list-style: outside none none;margin-right: 1px;margin-bottom:1px;}
+.main-channel .main .sub-nav li a{background: #ececec;color: #2e2e2e;float: left;font-size: 14px;font-weight: bold;text-align: center;width: 146px; line-height:40px; overflow:hidden;}
+.main-channel .main .sub-nav li.current a,.main-channel .main .sub-nav li.current a:hover{  background:#3b8ccb;color:#fff;}
+.main-channel .main .sub-nav li a:hover{ background:#d9d9d9;}
+/*main*/
+.nicescroll-rails{background-color:#f5f5f5; border-radius: 4px; /* 所有角都使用半径为5px的圆角，此属性为CSS3标准属性 */ 
+-moz-border-radius: 4px; /* Mozilla浏览器的私有属性 */ 
+-webkit-border-radius: 4px; /* Webkit浏览器的私有属性 */  }
+.main-channel .main .content{margin-top: 32px;position: relative;line-height:21px;color:#555; font-size:14px;overflow-y:auto;overflow-x:hidden;padding-right:14px;}
+.main-channel .main .content:focus,.main-channel .main .content:active{border:none;}
+.main-channel .main .content .left-txt{ width:510px; float:left;}
+.main-channel .main .content .right-pic{ width:340px; float:right;}
+.main-channel .main .content .right-pic img{ max-width:380px;}
+.main-channel .main .content p{ text-align:justify; text-justify:inter-ideograph; padding-bottom:20px;word-wrap:break-word; white-space:normal; word-break:break-all; line-height:24px;}
+/*  news */
+.main-channel .main .news{position: relative;line-height:21px;color:#333;}
+.main-channel .main .news li{ clear:both; height:40px;line-height:36px; border-bottom:1px dashed #ccc;  text-align:left; font-size:14px;}
+.main-channel .main .news li .date{ float:left; width:90px; margin-right:20px;color:#3b8ccb; text-indent:10px;}
+.main-channel .main .news li .txt{ float:left; font-weight:bold;}
+.main-channel .main .news li .txt a{color: #666;}
+.main-channel .main .news li .txt a:hover{ color:#3b8ccb;}
+
+/* 页码 */
+.num{ margin:15px 0 0; height:30px; clear:both;}
+.pagenum{ padding:12px 0;text-align:center; line-height:normal; line-height:20px; font-size:12px; vertical-align:middle; font-weight:bold;float:right; clear:both; margin-right:auto;}
+.pagenum .s1{text-align:center;}
+.pagenum .s2,.pagenum a.s2:hover{background:#3b8ccb; border:1px solid #3b8ccb; color:#fff;font-weight:bold; text-align:center;}
+.pagenum a.s2:visited {color:#fff;text-decoration:none;}
+.pagenum a{padding:4px 7px 1px; color:#666;background:#fff; display:inline; border:1px solid #ccc; text-align:center; text-decoration:none; }
+.pagenum a:visited{ color:#999; border-color:#999;} 
+.pagenum a:hover,.pagenum a.s1:hover{color:#3b8ccb; background:#fff;  border:1px solid #3b8ccb;text-decoration:none;}
+.pagenum .s1:visited{color:#0268cd;border:1px solid #0268cd;}
+.pagenum .s3,.pagenum .s3:hover{cursor:default;padding:4px 7px 1px;color:#999;background:#eee; display:inline; border:1px solid #ccc; text-align:center;}
+.pagenum .s4,.pagenum .s4:hover{ color:#666; font-weight:bold; font-family:Arial; font-size:14px; padding:0 3px; cursor:default; border:none;}
+/*retail*/
+.main-channel .main .retail{ font-size:14px; line-height:30px;}
+.main-channel .main .retail h1{ text-align:center; margin-bottom:20px; line-height:40px;}
+.main-channel .main .fb-date{ clear: both; text-align: center; margin: -10px 0 20px;border-top:1px solid #ddd;}
+
+/*大事记*/
+.year-month{font-size: 20px; background:#b61d26;padding: 10px 0; width: 106px; color: #ffffff; display:block; text-indent: 20px; }
+
+/*在线开户*/
+.online-account .note{margin-bottom:20px; background: #eee;padding:5px 10px;}
+.online-account select {
+    font-weight: bold;
+    height: 24px;
+    line-height: 24px;
+}
+.online-account .area {
+    width: 100%;
+}
+.online-account .area .conarea {
+    border: 1px solid #d9d9d9;
+    height: 70px;
+    line-height: 20px;
+    width: 600px;
+	font-size: 14px;
+}
+.online-account .detail {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fafafa none repeat scroll 0 0;
+    border-color: -moz-use-text-color #d9d9d9 #d9d9d9;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: 0 1px 1px;
+    height: 197px;
+    width: 911px;
+}
+.online-account th{ text-align:right;}
+.online-account th,
+.online-account td{padding:7px 4px;}
+.online-account input[type="text"] { padding: 5px 4px; width:200px;}
+.online-account th span{ color:red;padding-right:5px;font-size:16px;vertical-align:middle;}
+.online-account .menu{ text-align:center;}
+.ipn-btn{ padding:7px 20px; background: #3d8ccc; border:0; color: #fff;font-size: 16px; cursor: pointer;} 
+.ipn-btn:hover{background: #59a9ea;}
+
+/*三级频道菜单*/
+.third-nav li{margin: 0 auto;width: 502px;}
+.third-nav li a {
+    background-color: #ebebeb;
+    background-image: url("../images/arrow-right.png");
+    background-position: 10px 9px;
+    background-repeat: no-repeat;
+    border: 1px solid #bfbfbf;
+    color: #333;
+    display: block;
+    height: 32px;
+    margin-bottom: 19px;
+    padding-left: 32px;
+    padding-top: 8px;
+    width: 500px;
+}
+.third-nav li a:hover{
+    background-color: #fff;
+    background-image: url("../images/arrow-down.png");
+}
